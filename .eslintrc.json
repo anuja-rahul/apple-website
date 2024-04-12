@@ -1,4 +1,5 @@
 {
+  "plugins": ["react-refresh", "@react-three"],
   "extends": [
     "standard",
     "plugin:react/recommended",
