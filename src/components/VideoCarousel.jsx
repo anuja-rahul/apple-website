@@ -151,7 +151,7 @@ const VideoCarousel = () => {
         {hightlightsSlides.map((list, i) => (
           <div key={list.id} id="slider" className="pr-10 sm:pr-20">
             <div className="video-carousel_container">
-              <div className="flex-center size-full overflow-hidden rounded-3xl bg-black">
+              <div className="flex-center size-full overflow-auto rounded-3xl bg-black">
                 <video
                   id="video"
                   playsInline={true}

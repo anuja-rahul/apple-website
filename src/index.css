@@ -122,3 +122,15 @@ canvas {
     @apply opacity-0 translate-y-[100px];
   }
 }
+
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* For other browsers */
+.container {
+  overflow: auto; /* Enable scrolling */
+  -ms-overflow-style: none; /* Hide scrollbar in IE 10+ */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
