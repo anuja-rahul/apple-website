@@ -3,6 +3,7 @@
 ![TailwindCSS](https://img.shields.io/badge/-tailwindcss-000?style=for-the-badge&logo=tailwindcss)
 ![GSAP](https://img.shields.io/badge/-gsap-000?style=for-the-badge&logo=greensock)
 ![ThreeJS](https://img.shields.io/badge/-three.js-000?style=for-the-badge&logo=three.js)
+![Sentry](https://img.shields.io/badge/-Sentry-000?style=for-the-badge&logo=sentry)
 
 ![HTML](https://img.shields.io/badge/-HTML-000?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/css3-000?style=for-the-badge&logo=css3&logoColor=264de4)
