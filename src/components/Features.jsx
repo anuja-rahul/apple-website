@@ -9,16 +9,15 @@ const Features = () => {
 
   useGSAP(() => {
     gsap.to("#exploreVideo", {
-        
-        scrollTrigger: {
-          trigger: '#exploreVideo',
-          toggleActions: "play pause reverse restart",
-          start: "-10% bottom",
-        },
-        onComplete: () => {
-            videoRef.current.play();
-        }
-      });
+      scrollTrigger: {
+        trigger: "#exploreVideo",
+        toggleActions: "play pause reverse restart",
+        start: "-10% bottom",
+      },
+      onComplete: () => {
+        videoRef.current.play();
+      },
+    });
     animateWithGsap("#features_title", { y: 0, opacity: 1 });
     animateWithGsap(
       ".g_grow",
@@ -101,10 +100,9 @@ const Features = () => {
                     Titanium has one of the beast strength to weight ratios of
                     any metal, making these our{" "}
                     <span className="text-white">
-                      lightest Pro models ever.
+                      lightest Pro models ever.{" "}
                     </span>
-                    , You'll notice the difference the moment you pick one up.
-                    mars.
+                    You'll notice the difference the moment you pick one up.
                   </p>
                 </div>
               </div>
